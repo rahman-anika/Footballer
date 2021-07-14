@@ -56,13 +56,14 @@ main
     background-color: #E02C6D;
     font-size: 16px;
     line-height: 24px;
+    border:none;
     transition: width 1s linear 0.2s, border-radius 1s linear 0.2s;
 }
 
 .banner-button:hover
 {
     background-color: palevioletred;
-    width:140px;
+    width:160px;
     border-radius: 20px;
 }
 
@@ -93,10 +94,12 @@ main
 {
     background-color: white;
     width: 1050px;
+    
 }
 
 .top-players
 {
+    /* margin-left:180px; */
     margin-bottom:165px;
 }
 
@@ -105,6 +108,7 @@ main
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-row-gap: 27px;
+   
     
 }
 
@@ -157,6 +161,53 @@ main
     height:134px;
    
 }
+
+
+.ranking
+{
+    height:400px;
+    margin-bottom:158px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ranking>h1
+{
+text-align: center;
+font-size:30px;
+}
+
+.ranking>p
+{
+    text-align: center;
+    margin-top:2px;
+}
+
+table
+{
+    border-collapse: collapse;
+}
+
+caption
+{
+    color:#E02C6D;
+    font-size:20px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(2n) {
+    background-color: aqua;
+  }
+
+
+
+
 
 .partners
 {
