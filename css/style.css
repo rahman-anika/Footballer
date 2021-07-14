@@ -354,6 +354,9 @@ footer img
 
 @media only screen and (max-width:688px) {
 
+ /*******************
+  top-banner styles 
+ ******************/
     .top-banner
     {
         width:360px;
@@ -424,6 +427,9 @@ footer img
 }
 
 
+/*****************
+  players styles
+*****************/
 
 .container
 {
@@ -459,6 +465,14 @@ footer img
     
 }
 
+
+
+
+
+/*****************
+  ranking styles 
+*****************/
+
 .ranking
 {
     width:330px;
@@ -480,6 +494,14 @@ font-size:35px;
     text-align: center;
     margin-top:2px;
 }
+
+
+
+
+
+/******************
+  partners styles
+******************/
 
 .partners
 {
@@ -508,6 +530,10 @@ font-size:35px;
 }
 
 
+
+/****************
+  footer styles
+****************/
 
 footer
 {
@@ -551,6 +577,225 @@ footer img
     
 }
 
+
+    
+}
+
+/* Mobile Devices End  */
+
+/* Tablet Devices */
+
+@media only screen and (max-width:992px) and (min-width:689px) {
+
+    /*******************
+  top-banner styles 
+ ******************/
+ .top-banner
+{
+    background-color:#2D25A0;
+    /* width:1720px; */
+    height:677px;
+    display:grid;
+    /* flex-direction: row; */
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 102px;
+    margin-bottom:70px;
+   
+}
+
+
+.banner-text
+{
+    width: 485px;
+    height: 230px;
+    color:white;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+    padding-left:156px;
+    padding-top: 207px;
+    margin-bottom: 27px;
+    margin-top: 0px;
+}
+
+
+.banner-button
+{
+   
+    width: 168px;
+    height: 44px;
+    margin-left: 156px;
+    margin-top:16px;
+    margin-bottom: 169px;
+    padding:10px 24px;
+    color:white;
+    background-color: #E02C6D;
+    font-size: 16px;
+    line-height: 24px;
+    border:none;
+    transition: width 1s linear 0.2s, border-radius 1s linear 0.2s;
+}
+
+.banner-button:hover
+{
+    background-color: palevioletred;
+    width:160px;
+    border-radius: 20px;
+    cursor:pointer;
+}
+
+
+.banner-img
+{
+    /* margin-left:743px; */
+    margin-left:84px ;
+    
+}
+.banner-img img
+{
+    width: 556.01px;
+    height: 438px;
+    margin-top: 153px;
+    /* margin-left:143px; */
+    margin-bottom:86px;
+}
+
+
+/*****************
+players styles
+*****************/
+
+.container
+{
+ background-color: white;
+ width:698px;
+ 
+}
+
+.top-players
+{
+ /* margin-left:180px; */
+ margin-bottom:160px;
+}
+
+.players
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 27px;
+    grid-column-gap:15px;
+    
+
+ 
+}
+
+.player
+{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+ width: 330x;
+ height: 474px;
+ padding: 15px;
+ 
+}
+
+
+
+
+
+/*****************
+ranking styles 
+*****************/
+
+.ranking
+{
+
+ margin-bottom:61px;
+ display:flex;
+ justify-content:space-evenly;
+ align-items: center;
+ 
+}
+
+.ranking h1
+{
+text-align:left;
+font-size:35px;
+}
+
+.ranking p
+{
+ text-align: left;
+ margin-top:2px;
+}
+
+
+
+
+
+/******************
+partners styles
+******************/
+
+.partners
+{
+ padding-top:10px;
+ margin-bottom:43px;
+ height:auto;
+
+
+}
+
+
+
+
+/****************
+footer styles
+****************/
+
+footer
+{
+ margin-left:556px;
+ padding-top:60px;
+ margin-bottom:187px;
+ width: 698px;
+ height: 213px;
+}
+
+footer img
+{
+ width: 275px;
+ height: 63px;
+ margin-bottom:20px;
+}
+
+.footer-icon
+{
+ 
+ margin-left:115px;
+ width: 170px;
+ height: 32px
+}
+
+.footer-icon a
+{
+ text-decoration: none;
+ margin-right:14px;
+ margin-bottom:20px;
+}
+
+.footer-copyright
+{
+ width:236px;
+ height:31px;
+ font-size: 18px;
+ line-height: 24px;
+ color:black;
+ margin-left:82px;
+ 
+}
 
     
 }
